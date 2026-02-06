@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şeyma Sevim | Kişisel Web Sayfası</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-globes"></div>
+    
+    <nav class="navbar">
+        <div class="logo">Şeyma.</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Ana Sayfa</a></li>
+            <li><a href="#about">Hakkımda</a></li>
+            <li><a href="#interests">İlgi Alanlarım</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+        <div class="theme-switch-wrapper">
+            <button id="theme-toggle" aria-label="Temayı Değiştir">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <span class="greeting">Merhaba, ben</span>
+                <h1 class="name">Şeyma Sevim</h1>
+                <p class="tagline">Öğrenci, Geliştirici & Tasarımcı</p>
+                <div class="cta-buttons">
+                    <a href="#about" class="btn primary">Beni Tanı</a>
+                    <a href="#contact" class="btn secondary">İletişime Geç</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-card-mockup">
+                    <div class="card-header">
+                        <div class="window-controls">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <code>
+                            <span class="keyword">class</span> <span class="class-name">Person</span> {<br>
+                            &nbsp;&nbsp;<span class="keyword">constructor</span>() {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.name = <span class="string">"Şeyma"</span>;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.role = <span class="string">"Student"</span>;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="this">this</span>.hobbies = [<span class="string">"Coding"</span>, <span class="string">"Gaming"</span>];<br>
+                            &nbsp;&nbsp;}<br>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">Hakkımda</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        Merhaba! Ben Şeyma Sevim. <strong>Korkuteli Nene Hatun MTAL</strong> 12. sınıf öğrencisiyim. 
+                        Teknolojiye ve dijital sanata olan ilgim, beni sürekli yeni şeyler öğrenmeye itiyor.
+                        Gelecekte yazılım ve tasarım dünyasında kendime yer edinmek için şimdiden çalışıyorum.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests" class="section">
+            <h2 class="section-title">Neler Yapıyorum?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programlama</h3>
+                    <p>Kod yazmayı, algoritmalar kurmayı ve çalışan programlar üretmeyi seviyorum.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Oyun</h3>
+                    <p>Oyun dünyasının dinamiklerini keşfetmek ve bazen sadece eğlenmek benim için vazgeçilmez.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Tasarım</h3>
+                    <p>Resim ve video düzenleme araçlarıyla hayal dünyamı dijital ortama aktarıyorum.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">İletişim</h2>
+            <p class="contact-text">Projeler veya sadece tanışmak için bana ulaşabilirsin.</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Şeyma Sevim. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
